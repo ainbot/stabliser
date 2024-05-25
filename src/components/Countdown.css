@@ -1,0 +1,40 @@
+/* Countdown.css */
+
+body {
+    margin: 0; /* Removendo margens padrão do body */
+    padding: 0; /* Removendo padding padrão do body */
+    background-image: url("../../public/images/metrocity.png"); /* Caminho para a imagem de fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o body */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    background-position: center; /* Centraliza a imagem de fundo */
+    font-family: Arial, sans-serif; /* Defina uma fonte de texto padrão */
+}
+
+.container {
+    text-align: center;
+    background-color: transparent; /* Removi a cor de fundo para que a imagem cubra todo o contêiner */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ao redor do container */
+    max-width: 600px;
+    margin: 0 auto; /* Centraliza o container na página */
+}
+
+.refresh-button {
+    background-color: #4CAF50; /* Cor de fundo do botão */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px; /* Espaçamento superior */
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s; /* Transição suave da cor de fundo */
+}
+
+.refresh-button:hover {
+    background-color: #45a049; /* Cor de fundo do botão ao passar o mouse */
+}
