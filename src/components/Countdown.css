@@ -1,40 +1,68 @@
-/* Countdown.css */
-
 body {
-    margin: 0; /* Removendo margens padrão do body */
-    padding: 0; /* Removendo padding padrão do body */
-    background-image: url("../../public/images/metrocity.png"); /* Caminho para a imagem de fundo */
-    background-size: cover; /* Ajusta a imagem para cobrir todo o body */
-    background-repeat: no-repeat; /* Evita repetição da imagem */
-    background-position: center; /* Centraliza a imagem de fundo */
-    font-family: Arial, sans-serif; /* Defina uma fonte de texto padrão */
+    margin: 0;
+    padding: 0;
+    background-color: #424250;
+    font-family: Arial, sans-serif;
 }
 
 .container {
     text-align: center;
-    background-color: transparent; /* Removi a cor de fundo para que a imagem cubra todo o contêiner */
+    background-color: transparent;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ao redor do container */
-    max-width: 600px;
-    margin: 0 auto; /* Centraliza o container na página */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-weight: bold;
+    color: white;
+}
+
+.new-elements-container {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.image-container {
+    margin-bottom: 20px;
+}
+
+.main-image, .download-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-container {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.countdown-container {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .refresh-button {
-    background-color: #4CAF50; /* Cor de fundo do botão */
+    background-color: #4CAF50;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin-top: 20px; /* Espaçamento superior */
     cursor: pointer;
     border-radius: 5px;
     border: none;
-    transition: background-color 0.3s; /* Transição suave da cor de fundo */
+    transition: background-color 0.3s;
 }
 
 .refresh-button:hover {
-    background-color: #45a049; /* Cor de fundo do botão ao passar o mouse */
+    background-color: #45a049;
 }
